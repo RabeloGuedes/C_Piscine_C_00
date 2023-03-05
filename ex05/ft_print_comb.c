@@ -6,7 +6,7 @@
 /*   By: arabelo- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 12:22:32 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/03 12:42:44 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/05 12:20:55 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@ void	ft_result(char a, char b, char c)
 	ft_printchar(c);
 	if (!(a == '7' && b == '8' && c == '9'))
 	{
-		write(1, &comma, 1);
+		ft_printchar(comma);
+		ft_printchar(' ');
 	}
 }
 
