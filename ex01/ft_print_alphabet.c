@@ -6,7 +6,7 @@
 /*   By: arabelo- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 09:46:35 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/03 10:30:28 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/05 14:16:59 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void	ft_print_alphabet(void)
 {
-	char	a;
+	char	letter;
 
-	a = 'a';
-	while (a <= 'z')
+	letter = 'a';
+	while (letter <= 'z')
 	{
-		write (1, &a, 1);
-		a++;
+		write (1, &letter, 1);
+		letter++;
 	}
 }

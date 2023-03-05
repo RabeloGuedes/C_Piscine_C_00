@@ -6,7 +6,7 @@
 /*   By: arabelo- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 12:22:32 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/05 12:20:55 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/05 14:21:43 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,10 +50,16 @@ void	ft_print_comb(void)
 				ft_result(x, y, z);
 				z++;
 			}
-			z = y + 1;
 			y++;
+			z = y + 1;
 		}
 		y = x + 1;
 		x++;
 	}
+}
+
+int	 main(void)
+{
+	ft_print_comb();
+	return (0);
 }

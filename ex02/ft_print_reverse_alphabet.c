@@ -6,7 +6,7 @@
 /*   By: arabelo- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:37:11 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/03 10:45:34 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/05 14:17:33 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 void	ft_print_reverse_alphabet(void)
 {
-	char	z;
+	char	letter;
 
-	z = 'z';
-	while (z >= 'a')
+	letter = 'z';
+	while (letter >= 'a')
 	{
-		write(1, &z, 1);
-		z--;
+		write(1, &letter, 1);
+		letter--;
 	}
 }
