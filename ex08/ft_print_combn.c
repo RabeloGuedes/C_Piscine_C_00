@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: arabelo- <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: arabelo- <arabelo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/05 07:54:36 by arabelo-          #+#    #+#             */
-/*   Updated: 2023/03/05 10:38:18 by arabelo-         ###   ########.fr       */
+/*   Updated: 2023/03/06 13:04:13 by arabelo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ void	ft_print(int n)
 
 	index = 1;
 	controller = 0;
-	while (controller <= 8)
+	while (controller <= n)
 	{
 		index = controller + 1;
-		while (index <= 9)
+		while (index <= n)
 		{
 			ft_putchar(controller + 48);
 			ft_putchar(index + 48);
